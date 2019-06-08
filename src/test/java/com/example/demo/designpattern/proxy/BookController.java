@@ -1,4 +1,4 @@
-package com.example.demo.design.proxy;
+package com.example.demo.designpattern.proxy;
 
 /**
  * 实现代理逻辑调用的方法

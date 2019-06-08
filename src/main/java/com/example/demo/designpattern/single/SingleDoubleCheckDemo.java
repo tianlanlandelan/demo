@@ -1,4 +1,4 @@
-package com.example.demo.design.single;
+package com.example.demo.designpattern.single;
 
 /**
  * 使用双重检查锁模式实现单例

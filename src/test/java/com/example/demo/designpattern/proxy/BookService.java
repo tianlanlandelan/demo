@@ -1,4 +1,4 @@
-package com.example.demo.design.proxy;
+package com.example.demo.designpattern.proxy;
 
 /**
  * 用来测试代理模式的Server层代码

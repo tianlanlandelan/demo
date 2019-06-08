@@ -1,4 +1,4 @@
-package com.example.demo.design.single;
+package com.example.demo.designpattern.single;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

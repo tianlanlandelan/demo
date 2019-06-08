@@ -1,4 +1,4 @@
-package com.example.demo.design.single;
+package com.example.demo.designpattern.single;
 
 /**
  * 使用内部类的方式实现单例（静态内部类）

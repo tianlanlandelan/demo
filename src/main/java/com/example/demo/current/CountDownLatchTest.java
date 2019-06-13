@@ -5,8 +5,10 @@ import java.util.concurrent.*;
 
 /**
  * 模拟在主线程中有多个子线程，主线程需要等到子线程全部执行完毕后才执行其他任务
+ * @author yangkaile
+ * @date 2019-06-13 09:07:50
  */
-public class TestThread  {
+public class CountDownLatchTest {
     private static CountDownLatch  countDownLatch = new CountDownLatch(10);
     public static void main(String[] args) throws InterruptedException{
         int size = 2;
@@ -34,6 +36,7 @@ public class TestThread  {
         System.out.println("main is awaiting");
         countDownLatch.await();
         System.out.println("main is over");
+        executorService.shutdown();
         System.exit(0);
     }
 }

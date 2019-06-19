@@ -18,7 +18,7 @@ HELP.md
 *.ipr
 
 *.txt
-
+/image/
 
 ### NetBeans ###
 /nbproject/private/

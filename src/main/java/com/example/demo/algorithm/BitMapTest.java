@@ -35,15 +35,14 @@ public class BitMapTest {
         for(int i=0;i < max ; i++)
         {
             if(randomSet.get(i)){
-                System.out.print(i + "\t");
+                System.out.println(i);
             }
         }
-        System.out.println();
         System.out.println("没出现的数：");
         for(int i=0;i < max ; i++)
         {
             if(bitSet.get(i)){
-                System.out.print(i + "\t");
+                System.out.println(i);
             }
         }
     }
